@@ -1,0 +1,47 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('forest.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    height: 100vh; 
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: white;
+}
+
+.hero-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    font-size: 18px;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hero-button:hover {
+    background-color: #0056b3;
+}
